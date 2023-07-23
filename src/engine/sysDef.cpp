@@ -1873,6 +1873,18 @@ void DivEngine::registerSystems() {
     {}
   );
 
+  sysDefs[DIV_SYSTEM_YMF825]=new DivSysDef(
+    "Yamaha YMF825 (SD-1)", NULL, 0xfe, 0, 16, true, true, 0, false, 0,
+    "a modern 16-channel FM soundchip meant for home appliances. similar to the OPL3, but in mono and with more waveforms.",
+    {"FM 1", "FM 2", "FM 3", "FM 4", "FM 5", "FM 6", "FM 7", "FM 8", "FM 9", "FM 10", "FM 11", "FM 12", "FM 13", "FM 14", "FM 15", "FM 16"},
+    {"1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16"},
+    {DIV_CH_FM, DIV_CH_FM, DIV_CH_FM, DIV_CH_FM, DIV_CH_FM, DIV_CH_FM, DIV_CH_FM, DIV_CH_FM, DIV_CH_FM, DIV_CH_FM, DIV_CH_FM, DIV_CH_FM, DIV_CH_FM, DIV_CH_FM, DIV_CH_FM, DIV_CH_FM},
+    {DIV_INS_YMF825, DIV_INS_YMF825, DIV_INS_YMF825, DIV_INS_YMF825, DIV_INS_YMF825, DIV_INS_YMF825, DIV_INS_YMF825, DIV_INS_YMF825, DIV_INS_YMF825, DIV_INS_YMF825, DIV_INS_YMF825, DIV_INS_YMF825, DIV_INS_YMF825, DIV_INS_YMF825, DIV_INS_OPL, DIV_INS_YMF825},
+    {},
+    fmEffectHandlerMap,
+    fmOPLPostEffectHandlerMap
+  );
+
   sysDefs[DIV_SYSTEM_DUMMY]=new DivSysDef(
     "Dummy System", NULL, 0xfd, 0, 8, false, true, 0, false, 0,
     "this is a system designed for testing purposes.",

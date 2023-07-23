@@ -134,6 +134,7 @@ const char* insTypes[DIV_INS_MAX+1]={
   "K053260",
   "SCSP",
   "TED",
+  "YMF825",
   NULL
 };
 
@@ -857,6 +858,7 @@ const FurnaceGUIColorDef guiColors[GUI_COLOR_MAX]={
   D(GUI_COLOR_INSTR_K053260,"",ImVec4(1.0f,0.8f,0.1f,1.0f)),
   D(GUI_COLOR_INSTR_SCSP,"",ImVec4(0.5f,0.5f,0.5f,1.0f)),
   D(GUI_COLOR_INSTR_TED,"",ImVec4(0.7f,0.6f,1.0f,1.0f)),
+  D(GUI_COLOR_INSTR_YMF825,"",ImVec4(0.5f,1.0f,0.8f,1.0f)),
   D(GUI_COLOR_INSTR_UNKNOWN,"",ImVec4(0.3f,0.3f,0.3f,1.0f)),
 
   D(GUI_COLOR_CHANNEL_BG,"",ImVec4(0.4f,0.6f,0.8f,1.0f)),
@@ -1042,6 +1044,7 @@ const int availableSystems[]={
   DIV_SYSTEM_PV1000,
   DIV_SYSTEM_K053260,
   DIV_SYSTEM_TED,
+  DIV_SYSTEM_YMF825,
   DIV_SYSTEM_PCM_DAC,
   DIV_SYSTEM_PONG,
   0 // don't remove this last one!
@@ -1078,6 +1081,7 @@ const int chipsFM[]={
   DIV_SYSTEM_OPL3,
   DIV_SYSTEM_OPL3_DRUMS,
   DIV_SYSTEM_OPZ,
+  DIV_SYSTEM_YMF825,
   0 // don't remove this last one!
 };
 

@@ -119,6 +119,7 @@ the following instrument types are available:
 - 49: PV-1000
 - 50: K053260
 - 52: TED
+- 53: YMF825 (get approval from TA for this before merge)
 
 the following feature codes are recognized:
 

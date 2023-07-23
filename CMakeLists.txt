@@ -498,7 +498,7 @@ src/engine/platform/sound/oki/msm5232.cpp
 src/engine/platform/sound/oki/okim6258.cpp
 
 src/engine/platform/sound/snes/SPC_DSP.cpp
-
+ 
 src/engine/platform/sound/ga20/iremga20.cpp
 
 src/engine/platform/sound/sm8521.c
@@ -599,6 +599,7 @@ src/engine/platform/sm8521.cpp
 src/engine/platform/pv1000.cpp
 src/engine/platform/k053260.cpp
 src/engine/platform/ted.cpp
+src/engine/platform/ymf825.cpp
 src/engine/platform/pcmdac.cpp
 src/engine/platform/dummy.cpp
 
